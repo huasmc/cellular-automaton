@@ -9,6 +9,7 @@ The program has 4 classes:
 - BoardGenerator
 - CellChecker
 - Main
+- BoardDisplay
 
 ## Requirements
 
