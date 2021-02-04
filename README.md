@@ -5,6 +5,7 @@ This small program consists of a grid board with a finite number of cells where 
 The rules used to set the state of each cell come from the cellular automaton created by John Horton Conway.
 
 The program has 4 classes:
+
 - Board
 - BoardGenerator
 - CellChecker
@@ -19,9 +20,11 @@ The program has 4 classes:
 ## How to run
 
 - Clone this repo:
+
 ```
-git clone https://github.com/HuascarMC/cellular-automaton
+git clone https://github.com/huasmc/cellular-automaton
 ```
+
 - Open in your preferred IDE.
 
 - Play.
