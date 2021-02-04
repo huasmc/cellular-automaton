@@ -2,10 +2,10 @@ package com.company;
 
 class Board {
 
-    private int[][] board;
+    private int[][] boardMatrix;
 
     Board() {
-        board = new int[][]{
+        boardMatrix = new int[][]{
                 {0, 0, 0, 0, 0, 1, 0, 0, 0, 0},
                 {0, 0, 0, 0, 1, 1, 1, 0, 0, 0},
                 {0, 0, 0, 0, 0, 1, 0, 0, 0, 0},
@@ -22,10 +22,10 @@ class Board {
     }
 
     int[][] getBoard() {
-        return board;
+        return boardMatrix;
     }
 
     void setBoard(int[][] grid) {
-        board = grid;
+        boardMatrix = grid;
     }
 }

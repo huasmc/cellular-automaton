@@ -2,6 +2,10 @@ package com.company;
 
 public class BoardDisplay {
 
+    private BoardDisplay() {
+        throw new IllegalStateException("Utility class");
+    }
+
     public static void display(Board board) {
         int[][] grid = board.getBoard();
         System.out.println("\033[H\033[2J");

@@ -1,6 +1,10 @@
 package com.company;
 
-class BoardGenerator {
+class BoardGenerator { 
+
+    private BoardGenerator() {
+        throw new IllegalStateException("Utility class");
+    }
 
     static int[][] generateBoard(int[][] oldBoard, int numRows, int numColumns) {
         int[][] board = new int[numRows][numColumns];
