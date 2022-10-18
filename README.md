@@ -25,9 +25,18 @@ The program has 4 classes:
 git clone https://github.com/huasmc/cellular-automaton
 ```
 
+- Get inside src folder `cd src`
+
+- Compile the project `javac com/company/*.java`
+
+- Run the project `java com/company`
+
+Or run from IDE: 
+
 - Open in your preferred IDE.
 
 - Play.
+
 
 ## Things to be added/improved
 
